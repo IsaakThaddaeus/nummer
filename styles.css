@@ -19,22 +19,29 @@ body {
     margin-top: 20px;
   }
   
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 0 10px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  #neinButton {
-    background-color: #e74c3c;
-  }
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  outline: none; /* Entfernt den Fokus-Stil */
+}
 
-  button:hover {
-    filter: brightness(1.2); /* Helligkeit erhöhen, um den Hover-Effekt zu erzielen */
-  }
+button:hover {
+  filter: brightness(1.2);
+}
+
+#jaButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+#neinButton {
+  background-color: #e74c3c;
+  transition: transform 0.3s ease-in-out;
+  color: white;
+}
   
