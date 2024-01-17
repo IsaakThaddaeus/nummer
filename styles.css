@@ -47,5 +47,7 @@ button:hover {
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none; /* Optional: Entfernt den blauen Rand um den Button beim Fokus */
 }
   
